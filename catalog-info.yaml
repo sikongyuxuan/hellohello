@@ -8,17 +8,3 @@ spec:
   type: other
   lifecycle: unknown
   owner: hello
-
----
-apiVersion: backstage.io/v1alpha1
- kind: Group
- metadata:
-   name: alauda-backstage-admin
-   description: Administrators of idp
- spec:
-   type: team
-   profile:
-     displayName: Admins
-     email: admins@alauda.io
-     picture: 
-   children: []
